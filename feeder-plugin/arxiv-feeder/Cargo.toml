@@ -20,7 +20,7 @@ path = "src/main.rs"
 [dependencies]
 # The SDK is a dependency, not a vendored copy. Pinned by rev until the first
 # tag; see docs/project-architecture/feeder-architecture.md §8.
-meta-feeder-sdk = { git = "https://github.com/worph/meta-feeder-sdk", rev = "d2c6ef4c1887be9ae9f92ebedc39a810aa57c7e4" }
+meta-feeder-sdk = { git = "https://github.com/worph/meta-feeder-sdk", tag = "v1.7.0" }
 
 tokio = { version = "1.40", features = ["full"] }
 axum = { version = "0.7", features = ["json"] }
